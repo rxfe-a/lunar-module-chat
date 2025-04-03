@@ -1,5 +1,5 @@
 const socket = io();
-    //get elements thingy
+    //get elements thingy majig
     const messageForm = document.getElementById('message-form');
     const messageInput = document.getElementById('message-input');
     const chatContainer = document.getElementById('chat-container');
