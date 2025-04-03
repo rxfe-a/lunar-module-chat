@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat Room</title>
+    <link rel="stylesheet" href="themes/main.css" id="css">
+</head>
+<body>
+  <div id="sidebar">
+    <h3>Online Users</h3>
+    <ul id="user-list" class="user-list">
+      <!-- User list will be here -->
+    </ul>
+  </div>
+  
+  <div id="main">
+    <div id="chat-container">
+      <!-- Messages will be here -->
+    </div>
+    
+    <div id="input-container">
+      <form id="message-form">
+        <input type="text" id="message-input" placeholder="Enter a message..." autocomplete="off">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  
+  <div id="username-container">
+    <div id="username-form">
+      <h2>Enter your username</h2>
+      <input type="text" id="username-input" placeholder="Username">
+      <button id="join-btn">Join Chat</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main-chat.js"></script>
+</body>
+</html>
