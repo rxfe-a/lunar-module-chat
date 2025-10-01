@@ -8,7 +8,7 @@ const socket = io();
     const usernameInput = document.getElementById('username-input');
     const joinBtn = document.getElementById('join-btn');
     
-    // join
+    // join tfk?
     joinBtn.addEventListener('click', () => {
       const username = usernameInput.value.trim();
       if (username) {

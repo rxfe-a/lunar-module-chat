@@ -1,8 +1,8 @@
 {
   "name": "lunar-module-chat",
-  "version": "1.0.0",
+  "version": "1.0.0-draft",
   "lunar-support-version": "1",
-  "description": "lunar-chat-service opensource",
+  "description": "Unfinished",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
